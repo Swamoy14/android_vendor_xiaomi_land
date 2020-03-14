@@ -98,6 +98,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libfp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_client.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libfpnav.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpnav.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libfpservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice.so \
+    vendor/xiaomi/land/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.land:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.land \
+    vendor/xiaomi/land/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.land.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.land.rc \
     vendor/xiaomi/land/proprietary/vendor/lib/libactuator_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64244gwz.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libactuator_dw9718s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libactuator_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763.so \
