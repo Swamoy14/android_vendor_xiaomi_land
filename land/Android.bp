@@ -20,63 +20,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgpustats",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libgpustats.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libgpustats.so"],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libqmiservices",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libqmiservices.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libqmiservices.so"],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libsdm-disp-vndapis",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libsdm-disp-vndapis.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libsdm-disp-vndapis.so"],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libthermalclient",
 	owner: "xiaomi",
 	strip: {
@@ -180,7 +123,7 @@ android_app_import {
 	name: "TimeService",
 	owner: "xiaomi",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
-	certificate: ":timeservice_app_cert-legacy-um",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
