@@ -90,9 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537EC1/reliance_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537EC1/reliance_mcfg_sw.mbn \
     vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537EC1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537EC1/row_mcfg_sw.mbn \
     vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537EC1/vodafone_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537EC1/vodafone_mcfg_sw.mbn \
-    vendor/xiaomi/land/proprietary/vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml \
-    vendor/xiaomi/land/proprietary/vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Tianma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili9881c_HD720p_video_Tianma.xml \
-    vendor/xiaomi/land/proprietary/vendor/etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG.xml \
     vendor/xiaomi/land/proprietary/vendor/lib/hw/fingerprint.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.msm8937.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libcom_fingerprints_service.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom_fingerprints_service.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/fingerprint.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8937.so \
